@@ -1459,34 +1459,6 @@ Children:
   - Name: MainLogic
     Id: g=ff21370a6bb95ea39219764003cb1626
     Type: NetLogic
-  - Name: Label1
-    Id: g=e859361a22d9d3320c382daf84797312
-    Type: Label
-    Children:
-    - Name: Text
-      Id: g=08225156dc617ab4d16ece1342be74ff
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Test Mode"}
-    - Name: TopMargin
-      Id: g=abf20440c0dd01c437f9e4dc7242f1ff
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 210.0
-    - Name: LeftMargin
-      Id: g=2fc2e32294f17e9345bfb5244a929523
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-    - Name: FontSize
-      Id: g=b8bddb857edcced79ba071d3910d8814
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
 - Name: Data
   Id: g=1b0dc70d5d42c09a70acec1c917ca5d0
   Supertype: BasePage
