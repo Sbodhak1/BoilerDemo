@@ -6,7 +6,7 @@ Children:
   Id: g=c7d26f3c54d53d336582e2ac9324189a
   Type: BaseDataVariableType
   DataType: String
-  Value: "opc.tcp://127.0.0.1:48020"
+  Value: "opc.tcp://FH887G3:48020"
 - Name: MinimumMessageSecurityMode
   Id: g=202202f64855412795b7e5705e83fa8b
   Type: BaseDataVariableType

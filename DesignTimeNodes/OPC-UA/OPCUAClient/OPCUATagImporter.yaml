@@ -16,3 +16,8 @@ Children:
   ValueRank: OneDimension
   ArrayDimensions: [0]
   Value: []
+- Name: Mode
+  Id: g=2e67ef15f27f15edbb722e6637db634c
+  Type: BaseDataVariableType
+  DataType: FetchProviderModes
+  Value: 1
