@@ -1,3 +1,931 @@
 Name: Tags
 Id: g=18020bc3d3dd839ea61eb66253c325fa
 Type: BaseObjectType
+Children:
+- Name: Controller Tags
+  Id: g=31391c31ccb7b831acbc986f9d2625cb
+  Type: TagStructure
+  Children:
+  - Name: Motors
+    Id: g=9a877acb69a3cd03453c400d6b8953ba
+    Type: TagStructureArray
+    Children:
+    - Name: ArrayDimensions
+      Id: g=a590e18ff48bcf366c5a654c4344f00d
+      Type: PropertyType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [5]
+    - Name: 0
+      Id: g=ade47e9afa8fa4e66482c2a3a1e5f323
+      Type: Motor
+      Children:
+      - Name: Power
+        Id: g=608b13f44e00a81200dbab4cc7558791
+        Type: EthernetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=208d95d8f28ba08e2e30b1dd38961862
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[0].Power"
+      - Name: Speed
+        Id: g=2c168ca3f0f77e14c155cc746f4c3521
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=6828ba9c82c8c512cdd8ff1b54b98973
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[0].Speed"
+      - Name: CmdOffOn
+        Id: g=580bf5f589dedf56ffcb7d84d0d1883b
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=908c5d37c438ab1daefcc9c03837fc90
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[0].CmdOffOn"
+      - Name: SetSpeed
+        Id: g=c5b821aa4446fba0bec06ab5e7db9bc5
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=89709af5efaac8552cc14e346b13946a
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[0].SetSpeed"
+      - Name: Status
+        Id: g=6cc72f09627202ee205b60f9404fcb35
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=64b86b33cae0a89b60a44793efe271ad
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[0].Status"
+    - Name: 1
+      Id: g=69faa9a81fe6af04735c46f99411c36c
+      Type: Motor
+      Children:
+      - Name: Power
+        Id: g=008c693268cca917ad7653b83056fca6
+        Type: EthernetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=af4a091184e2acd8d88c834870b4cfc6
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[1].Power"
+      - Name: Speed
+        Id: g=c1044bea4af3314cb05234fb889f544b
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=3fc8fb7908c20db352589d0f9f66d47f
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[1].Speed"
+      - Name: CmdOffOn
+        Id: g=cf4dd1973a099a162e6866ac15b4d1ed
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=0cf214722e6d47572b8ce67897a8a434
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[1].CmdOffOn"
+      - Name: SetSpeed
+        Id: g=d9ca511d223145177777f5ba820eda25
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=095ff7da16c6b4a8af2fd0d7d459855f
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[1].SetSpeed"
+      - Name: Status
+        Id: g=abb96105b57bc97ebfcdaa888ef6d210
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=53e417d47a5a1f45490a8e8293270fd1
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[1].Status"
+    - Name: 2
+      Id: g=bcd2e3b8f7127db0b406bc12954ceb2d
+      Type: Motor
+      Children:
+      - Name: Power
+        Id: g=3d614895936db011c6e564a8939f9caf
+        Type: EthernetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=5c03c13dc33d2a533dcec17d4ca24ae0
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[2].Power"
+      - Name: Speed
+        Id: g=a7624b736ee9a06f4a0ffa7cff3d1409
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=73c2ed2f2e9bc6111f02ee78a6837d94
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[2].Speed"
+      - Name: CmdOffOn
+        Id: g=e3cca75b766d3b35fe090f2dff27432a
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=4216c503db6bbf86b459ba444f26a296
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[2].CmdOffOn"
+      - Name: SetSpeed
+        Id: g=761d233e327da046754daeb1ee9c366d
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=92c5d279e85a6968d5827e7c471cb73e
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[2].SetSpeed"
+      - Name: Status
+        Id: g=ffde8c0d6995bbd935722cfc2377952c
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=7a2c6c8e8a6bf0628582bf5b9605dc69
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[2].Status"
+    - Name: 3
+      Id: g=2b636cd7e0b7d119c0b7bbf8419b25df
+      Type: Motor
+      Children:
+      - Name: Power
+        Id: g=51c3e25afe7fda20387e5bb6dd120c08
+        Type: EthernetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=42702e036b122bbdba00ff2a56cb88f4
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[3].Power"
+      - Name: Speed
+        Id: g=edc66cd46e68d9522fe1c768f853b3a6
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=a2432cb3a8f8453ee9d5257c32f7a76e
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[3].Speed"
+      - Name: CmdOffOn
+        Id: g=b22aabc46c290d9d948da8e67dcaffd6
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=282e343c774a2026b5c9e73224609ade
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[3].CmdOffOn"
+      - Name: SetSpeed
+        Id: g=9c19ab12ebaa2c84ec9f6ed476255030
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=905a80b54952da53367800688e848a6f
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[3].SetSpeed"
+      - Name: Status
+        Id: g=eddb3b97d90e2dd006e5f3359ab2d012
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=bd8dd70e8a1c38c6c740338b4f022aa4
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[3].Status"
+    - Name: 4
+      Id: g=68a9bf2b14ec4c9b796e8129bbd8a395
+      Type: Motor
+      Children:
+      - Name: Power
+        Id: g=d8d87355c9491f043703214f6ca68c18
+        Type: EthernetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=39a7ffce88ced4acf4aebbf4f9564f8c
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[4].Power"
+      - Name: Speed
+        Id: g=1c9f9485f0f14701e4ecb23cad59e10f
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=a571cb6d3b02d8a28e35d0b717eda284
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[4].Speed"
+      - Name: CmdOffOn
+        Id: g=8820d4a2b32c9ef170b9ccbebe23c3ce
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=b20f06b1f92ad37d3a6b07ae4530ef28
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[4].CmdOffOn"
+      - Name: SetSpeed
+        Id: g=ad06b2d9d8c00902d999cc737b4b6523
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=6533dc2111ab9a6343bcd9cec5153d66
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[4].SetSpeed"
+      - Name: Status
+        Id: g=1ca0e539feb5fab21b86d3a9be2fef04
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=b3b04c3f0d2b454b4039f3fbf9cc127a
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motors[4].Status"
+  - Name: MyTag1
+    Id: g=5b87c71916b61e062504cbf993e7cbfd
+    Type: MyDataType
+    Children:
+    - Name: PropertyTag1
+      Id: g=2a50b80d65e07e4f747d5379d89de732
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=807aef9c5771c5f0d2aaedeb6caa8f4b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyTag1.PropertyTag1"
+    - Name: PropertyTag2
+      Id: g=c087f0953a6ad0662d3a2277ad0507df
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=25d605181badc46f3e4d6844811f6aea
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyTag1.PropertyTag2"
+    - Name: Tag3
+      Id: g=fe3231c4ddb52017a042146a24667281
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=07ee7ba54e3ea09880bafe96ce70c967
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MyTag1.Tag3"
+  - Name: SpindleArray
+    Id: g=8e6e99a121a9c3bd031995d4600ba607
+    Type: TagStructureArray
+    Children:
+    - Name: ArrayDimensions
+      Id: g=170faf1b3a356405703e2af3b435c845
+      Type: PropertyType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [10]
+    - Name: 0
+      Id: g=4b6ab1fdc45cb12faa160e8ff912f940
+      Type: Spindle
+      Children:
+      - Name: current
+        Id: g=60caaf8cba0e85ad5cd7d6c28e4ceb76
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=08dc2def1175bdb0782519cef967b547
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[0].current"
+      - Name: speed
+        Id: g=6b61d37619a63eac10b07ec906be52a0
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=7f31c07fef367fe1805250446482b4b0
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[0].speed"
+      - Name: status
+        Id: g=82253374f6725efb5b40ce0b3d481ce0
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=d8307cb6d5c98c2d265b900ff4241504
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[0].status"
+    - Name: 1
+      Id: g=caf339274f3d6c0a4eb0593e04edc9c1
+      Type: Spindle
+      Children:
+      - Name: current
+        Id: g=d2fffeaa16afb53568a5123c7141dfce
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=7272b47af79b9702ef7eaad02a701982
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[1].current"
+      - Name: speed
+        Id: g=d3f1bbba1515786a33164756ab1be8d1
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=5cedb69b069b720bc2811c449a767903
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[1].speed"
+      - Name: status
+        Id: g=c63c8c509f88d1a690578c78f45bf823
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=65e2f48596f75abd4fe9aa95fe37bba3
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[1].status"
+    - Name: 2
+      Id: g=97ac0c8fd111a3e4a823fc2d8cf26f48
+      Type: Spindle
+      Children:
+      - Name: current
+        Id: g=32cd793f3c71cc733c41914d63f89db1
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=fa10354a8e2af29d95c41207d5daca1c
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[2].current"
+      - Name: speed
+        Id: g=3095b280311b69c07793fb3e82b20278
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=d27711707f0d73c3a58c9a41c7c80860
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[2].speed"
+      - Name: status
+        Id: g=b5e96b970ab309753930ed2b13abf5ad
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=30a9c2b5e2bc6a98330e983f16a591fa
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[2].status"
+    - Name: 3
+      Id: g=2b1602542672e963b3a6d7b78488d8e4
+      Type: Spindle
+      Children:
+      - Name: current
+        Id: g=fad661c771b836539b5e2bdd84e9ec54
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=a95bbe37b151a52777b1c09803c46f67
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[3].current"
+      - Name: speed
+        Id: g=0cd176ba3d5680236e2a0b9e51c6cdf2
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=9f25c294afc432ebe7eb8bf205bf8fcc
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[3].speed"
+      - Name: status
+        Id: g=e656e69866179ee8a3f6955573d06877
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=3590e0d40ea64158eeae2cf06e3f88f1
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[3].status"
+    - Name: 4
+      Id: g=adc2e5b4533fcb8b54db969e81fda43a
+      Type: Spindle
+      Children:
+      - Name: current
+        Id: g=b4bf0660b6b05208e3b5de9803e1921f
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=c353c805e935a655dc0378b9a6bc8530
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[4].current"
+      - Name: speed
+        Id: g=58c551025bcee91f4583c208e8c44fc7
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=20ea1a5c9d84320c0aa2119a37c1aece
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[4].speed"
+      - Name: status
+        Id: g=cdb74eda089e4d8b76a5281bc70a5fab
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=eeb2887e2781c5c1a2276932ec950ed4
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[4].status"
+    - Name: 5
+      Id: g=bceac931dc265bd0cc788bb6cf905ea3
+      Type: Spindle
+      Children:
+      - Name: current
+        Id: g=1fd4b620c3075345f981b6afe600fc2b
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=80a7cf1313ebe1d1b6d48cd88cb4efaf
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[5].current"
+      - Name: speed
+        Id: g=59e59fdc893908ec0155e42d4c6dd3a1
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=29c5ac0db970cc621baa0e3b8bb581cb
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[5].speed"
+      - Name: status
+        Id: g=2f2de5e411d6f30d1398f15d4f6b8ed8
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=43a20156f3addb1d91b9e81d5872c338
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[5].status"
+    - Name: 6
+      Id: g=daba0bf6ba8f539e2cddfc92d1f1952f
+      Type: Spindle
+      Children:
+      - Name: current
+        Id: g=cacdcb0aae6be474ad9424f9b086fb95
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=63c13db37d10e1ba6b52e5bbcd14d81d
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[6].current"
+      - Name: speed
+        Id: g=1473d6d031b473e4ae07da10a7ae0b48
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=305dae14c4e1c792f3988607cec8250e
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[6].speed"
+      - Name: status
+        Id: g=92d67fe838b64d45b8a1e0ce647ce5d0
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=5b7b0b2796859aaa147a611076708864
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[6].status"
+    - Name: 7
+      Id: g=32110dab40a05fcbd3ba97979705e1b4
+      Type: Spindle
+      Children:
+      - Name: current
+        Id: g=b3759cec6d21c8757735e13651ba0331
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=b021f2fcde0098a89102f6ed8d69fef8
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[7].current"
+      - Name: speed
+        Id: g=6b21cada9a5c89c24cf2ae4692e8acaf
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=8b8b16344792cd986e1d916e07cc1976
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[7].speed"
+      - Name: status
+        Id: g=a868cba62470da348aa5a726cf4c2a3e
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=a3dcefdb4787a116c049e76a5b5d2e4b
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[7].status"
+    - Name: 8
+      Id: g=1732c5a984dfbe41cbbb8811b8aa57cd
+      Type: Spindle
+      Children:
+      - Name: current
+        Id: g=51089896b2d4975cda9c2053cef1d586
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=47fbf8ebde9f34a0d8f3c5104fb7d902
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[8].current"
+      - Name: speed
+        Id: g=9f57c3888a6c45b66980a784c4e6f06d
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=26a8bec0bf4af57745e06272262d501b
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[8].speed"
+      - Name: status
+        Id: g=1d165ac703c820e910f9a584cd7b02d1
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=974159a4ce5ac0ff368208927aed176e
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[8].status"
+    - Name: 9
+      Id: g=23ac02c278637be231a623a6d39c87c1
+      Type: Spindle
+      Children:
+      - Name: current
+        Id: g=e9b6dde219f930158820ad8c0040999f
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=fe1cb4e30fa8cff584d1b36301b626e4
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[9].current"
+      - Name: speed
+        Id: g=934c006543fe86376ff05ca3a2920f81
+        Type: EthernetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=cb84f44b73fbf73c41604e1d2228d193
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[9].speed"
+      - Name: status
+        Id: g=25a8aebab64bdb6b11c77a61cd27d093
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=06188b3bef0589d5a1fa68d4151dfd9a
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SpindleArray[9].status"
+  - Name: Tank1
+    Id: g=70bd902c75e25ec7974d14ed96e765aa
+    Type: TankUDT
+    Children:
+    - Name: ValveInStatus
+      Id: g=4007a435e2ff393b196eb3bde473bfa2
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=5bbad8d97f47a0379637a928d4f462c4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.ValveInStatus"
+    - Name: ValveInCmd
+      Id: g=f10c25331b5768084d7db8cb6317c62d
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=a940273c3b0396c72545a88262ecb496
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.ValveInCmd"
+    - Name: ValveOutStatus
+      Id: g=6e998a9d061c8be5846bf4d23ea666ad
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=9fb59ae4f4fb0cddfcec6dbb5002e251
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.ValveOutStatus"
+    - Name: ValveOutCmd
+      Id: g=2ac6102c1f160a61e7efb7140cb55ef4
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=d2a946ce04c4602be28c58381680eaa6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.ValveOutCmd"
+    - Name: Level
+      Id: g=bd328e59e64d2c6ba282f9e6b44e8ced
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=df916e80409a6c0da47d0a22ef32a733
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.Level"
+    - Name: SetPoint
+      Id: g=2d46389c0a95e52bd9a6f8d9ce160caf
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=9be08aba9f5c8d2f7dd8042ea01d4177
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.SetPoint"
+  - Name: Tank2
+    Id: g=58d35bf21b4bde45ee388bdc21fd886a
+    Type: TankUDT
+    Children:
+    - Name: ValveInStatus
+      Id: g=b3dbf1d7694e3a6529bd93ad9c435692
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=9e81472c24604f0f257e1f7879832db2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.ValveInStatus"
+    - Name: ValveInCmd
+      Id: g=97cd6107fbfa85a720101ca18825a6db
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=19e8c6c1a14fdf428ac1340b778548a2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.ValveInCmd"
+    - Name: ValveOutStatus
+      Id: g=6ee42c05cf8b8367de525763ed23ff51
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=b5aa09b0548fb00c20cb33941c76737a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.ValveOutStatus"
+    - Name: ValveOutCmd
+      Id: g=7a6ed46a1262ac106dafb532156c9ed5
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=20f7d1367d89fa6240cec16e3fd909e6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.ValveOutCmd"
+    - Name: Level
+      Id: g=1b69b397257f29e1dc411ab4593b1cdb
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=d910f9cd20dfe100a7e5b22058a312b5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.Level"
+    - Name: SetPoint
+      Id: g=b0d0486b4b09c4d01a9f2f6e8d15fb1c
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=7bf47d1dd3aada890acfb38b3b2cd0a6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.SetPoint"
+  - Name: TestBoolTag
+    Id: g=3885ded50a14c9f256646caa44150d90
+    Type: EthernetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=b8f15e247d40cdcb534340c71744802e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TestBoolTag"
+  - Name: TestIncrementTag
+    Id: g=4fb9d89a68f51f8506b0df2f4e633947
+    Type: EthernetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=dfa18aad06ec7bc324e27ad7f0d0806c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TestIncrementTag"
+- Name: 'Program:MainProgram'
+  Id: g=487e0be3c6e88f7eb6be5ab4f1513e32
+  Type: TagStructure
+  Children:
+  - Name: Count
+    Id: g=1c2b930c893c3a85adc5d62973888c51
+    Type: EthernetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=7be6707a5dba5ec4beeabd125a88b2f4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Count"
+  - Name: Direction
+    Id: g=aafc51ebccfd2ec06b842637dc7f3293
+    Type: EthernetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=03dc7247b65b0d0f929af857206eae4a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Direction"
+  - Name: Init
+    Id: g=d6d579ef6a70ad6a4e3e2d9467b43164
+    Type: EthernetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=fbf573d08a6deb98a8002ecb8ad53605
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Init"

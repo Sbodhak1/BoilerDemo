@@ -57,6 +57,9 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 1.0
+  17:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:FH887G3:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
  Nodes:
  - File: DesignTimeNodes/CommDrivers/EthernetIPDriver/EthernetIPStation/EthernetIPTagImporter.yaml
  - File: 'DesignTimeNodes/OPC-UA/OPCUAClient/OPCUATagImporter.yaml'

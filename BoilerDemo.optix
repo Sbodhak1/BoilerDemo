@@ -155,5 +155,8 @@ Project:
    Uri: 'urn:FTOptix:EthernetIP:Net'
    Module: FTOptix.EthernetIP.Net
    Version: 1.0
+  41:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:FH887G3:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
  Nodes:
  - File: Nodes/BoilerDemo.yaml
